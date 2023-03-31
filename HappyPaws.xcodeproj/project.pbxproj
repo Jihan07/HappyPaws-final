@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB3A02E629D090C000BB88FC /* ProfilDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A02E529D090C000BB88FC /* ProfilDetails.swift */; };
+		BB3A02EA29D090CE00BB88FC /* StructProfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A02E929D090CE00BB88FC /* StructProfil.swift */; };
+		BB472F4729D461A800F0A8A7 /* NouveauProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB472F4629D461A800F0A8A7 /* NouveauProfilView.swift */; };
+		BB53C59629CB065100D6EB2C /* Couleurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53C59529CB065100D6EB2C /* Couleurs.swift */; };
+		BB53C5B729CB52C000D6EB2C /* CarteModaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53C5B629CB52C000D6EB2C /* CarteModaleView.swift */; };
+		BB99489429CB83B200A0D1F9 /* AnimalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99489329CB83B200A0D1F9 /* AnimalResponse.swift */; };
+		BB99489629CB83BE00A0D1F9 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99489529CB83BE00A0D1F9 /* MessagesView.swift */; };
+		BB99489829CB85F400A0D1F9 /* AlimentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99489729CB85F400A0D1F9 /* AlimentationView.swift */; };
+		BB99489A29CB85FC00A0D1F9 /* AlimentationTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99489929CB85FC00A0D1F9 /* AlimentationTable.swift */; };
+		BB99489C29CB87AA00A0D1F9 /* ProfilMunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99489B29CB87AA00A0D1F9 /* ProfilMunin.swift */; };
+		BB9948A229CB894700A0D1F9 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9948A129CB894700A0D1F9 /* Event.swift */; };
+		BBA1720729CD012900317327 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA1720629CD012900317327 /* EventDetail.swift */; };
+		BBD49F8429CAEEA900BF840B /* HappyPawsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD49F8329CAEEA900BF840B /* HappyPawsApp.swift */; };
+		BBD49F8629CAEEA900BF840B /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD49F8529CAEEA900BF840B /* TabBarView.swift */; };
+		BBD49F8829CAEEAB00BF840B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD49F8729CAEEAB00BF840B /* Assets.xcassets */; };
+		BBD49F8B29CAEEAB00BF840B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD49F8A29CAEEAB00BF840B /* Preview Assets.xcassets */; };
+		BBD49F9729CAEFD900BF840B /* RappelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD49F9629CAEFD800BF840B /* RappelsView.swift */; };
+		BBD49F9B29CAEFFF00BF840B /* MessagerieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD49F9A29CAEFFF00BF840B /* MessagerieView.swift */; };
+		BBD49F9E29CAF01400BF840B /* CarteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD49F9D29CAF01400BF840B /* CarteView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB3A02E529D090C000BB88FC /* ProfilDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilDetails.swift; sourceTree = "<group>"; };
+		BB3A02E929D090CE00BB88FC /* StructProfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructProfil.swift; sourceTree = "<group>"; };
+		BB472F4629D461A800F0A8A7 /* NouveauProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NouveauProfilView.swift; sourceTree = "<group>"; };
+		BB53C59529CB065100D6EB2C /* Couleurs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Couleurs.swift; sourceTree = "<group>"; };
+		BB53C5B629CB52C000D6EB2C /* CarteModaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteModaleView.swift; sourceTree = "<group>"; };
+		BB99489329CB83B200A0D1F9 /* AnimalResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalResponse.swift; sourceTree = "<group>"; };
+		BB99489529CB83BE00A0D1F9 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		BB99489729CB85F400A0D1F9 /* AlimentationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentationView.swift; sourceTree = "<group>"; };
+		BB99489929CB85FC00A0D1F9 /* AlimentationTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlimentationTable.swift; sourceTree = "<group>"; };
+		BB99489B29CB87AA00A0D1F9 /* ProfilMunin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilMunin.swift; sourceTree = "<group>"; };
+		BB9948A129CB894700A0D1F9 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BBA1720629CD012900317327 /* EventDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		BBD49F8029CAEEA900BF840B /* HappyPaws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyPaws.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD49F8329CAEEA900BF840B /* HappyPawsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyPawsApp.swift; sourceTree = "<group>"; };
+		BBD49F8529CAEEA900BF840B /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		BBD49F8729CAEEAB00BF840B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBD49F8A29CAEEAB00BF840B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBD49F9629CAEFD800BF840B /* RappelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RappelsView.swift; sourceTree = "<group>"; };
+		BBD49F9A29CAEFFF00BF840B /* MessagerieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagerieView.swift; sourceTree = "<group>"; };
+		BBD49F9D29CAF01400BF840B /* CarteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBD49F7D29CAEEA900BF840B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB53C59729CB066A00D6EB2C /* Composants */ = {
+			isa = PBXGroup;
+			children = (
+				BB53C59529CB065100D6EB2C /* Couleurs.swift */,
+			);
+			path = Composants;
+			sourceTree = "<group>";
+		};
+		BBD49F7729CAEEA900BF840B = {
+			isa = PBXGroup;
+			children = (
+				BBD49F8229CAEEA900BF840B /* HappyPaws */,
+				BBD49F8129CAEEA900BF840B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBD49F8129CAEEA900BF840B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBD49F8029CAEEA900BF840B /* HappyPaws.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD49F8229CAEEA900BF840B /* HappyPaws */ = {
+			isa = PBXGroup;
+			children = (
+				BBD49F8329CAEEA900BF840B /* HappyPawsApp.swift */,
+				BBD49F8529CAEEA900BF840B /* TabBarView.swift */,
+				BB53C59729CB066A00D6EB2C /* Composants */,
+				BBD49F9129CAEEB700BF840B /* Profil */,
+				BBD49F9429CAEF3400BF840B /* Rappel */,
+				BBD49F9529CAEF3C00BF840B /* Messagerie */,
+				BBD49F9329CAEF2B00BF840B /* Carte */,
+				BBD49F9229CAEF2300BF840B /* Alimentation */,
+				BBD49F8729CAEEAB00BF840B /* Assets.xcassets */,
+				BBD49F8929CAEEAB00BF840B /* Preview Content */,
+			);
+			path = HappyPaws;
+			sourceTree = "<group>";
+		};
+		BBD49F8929CAEEAB00BF840B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBD49F8A29CAEEAB00BF840B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBD49F9129CAEEB700BF840B /* Profil */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A02E929D090CE00BB88FC /* StructProfil.swift */,
+				BB3A02E529D090C000BB88FC /* ProfilDetails.swift */,
+				BB99489B29CB87AA00A0D1F9 /* ProfilMunin.swift */,
+				BB472F4629D461A800F0A8A7 /* NouveauProfilView.swift */,
+			);
+			path = Profil;
+			sourceTree = "<group>";
+		};
+		BBD49F9229CAEF2300BF840B /* Alimentation */ = {
+			isa = PBXGroup;
+			children = (
+				BB99489929CB85FC00A0D1F9 /* AlimentationTable.swift */,
+				BB99489729CB85F400A0D1F9 /* AlimentationView.swift */,
+			);
+			path = Alimentation;
+			sourceTree = "<group>";
+		};
+		BBD49F9329CAEF2B00BF840B /* Carte */ = {
+			isa = PBXGroup;
+			children = (
+				BBD49F9D29CAF01400BF840B /* CarteView.swift */,
+				BB53C5B629CB52C000D6EB2C /* CarteModaleView.swift */,
+			);
+			path = Carte;
+			sourceTree = "<group>";
+		};
+		BBD49F9429CAEF3400BF840B /* Rappel */ = {
+			isa = PBXGroup;
+			children = (
+				BBA1720629CD012900317327 /* EventDetail.swift */,
+				BB9948A129CB894700A0D1F9 /* Event.swift */,
+				BBD49F9629CAEFD800BF840B /* RappelsView.swift */,
+			);
+			path = Rappel;
+			sourceTree = "<group>";
+		};
+		BBD49F9529CAEF3C00BF840B /* Messagerie */ = {
+			isa = PBXGroup;
+			children = (
+				BB99489529CB83BE00A0D1F9 /* MessagesView.swift */,
+				BB99489329CB83B200A0D1F9 /* AnimalResponse.swift */,
+				BBD49F9A29CAEFFF00BF840B /* MessagerieView.swift */,
+			);
+			path = Messagerie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBD49F7F29CAEEA900BF840B /* HappyPaws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD49F8E29CAEEAB00BF840B /* Build configuration list for PBXNativeTarget "HappyPaws" */;
+			buildPhases = (
+				BBD49F7C29CAEEA900BF840B /* Sources */,
+				BBD49F7D29CAEEA900BF840B /* Frameworks */,
+				BBD49F7E29CAEEA900BF840B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyPaws;
+			productName = HappyPaws;
+			productReference = BBD49F8029CAEEA900BF840B /* HappyPaws.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBD49F7829CAEEA900BF840B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BBD49F7F29CAEEA900BF840B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BBD49F7B29CAEEA900BF840B /* Build configuration list for PBXProject "HappyPaws" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBD49F7729CAEEA900BF840B;
+			productRefGroup = BBD49F8129CAEEA900BF840B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBD49F7F29CAEEA900BF840B /* HappyPaws */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBD49F7E29CAEEA900BF840B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD49F8B29CAEEAB00BF840B /* Preview Assets.xcassets in Resources */,
+				BBD49F8829CAEEAB00BF840B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBD49F7C29CAEEA900BF840B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3A02EA29D090CE00BB88FC /* StructProfil.swift in Sources */,
+				BB3A02E629D090C000BB88FC /* ProfilDetails.swift in Sources */,
+				BBD49F8629CAEEA900BF840B /* TabBarView.swift in Sources */,
+				BB99489829CB85F400A0D1F9 /* AlimentationView.swift in Sources */,
+				BB472F4729D461A800F0A8A7 /* NouveauProfilView.swift in Sources */,
+				BB99489C29CB87AA00A0D1F9 /* ProfilMunin.swift in Sources */,
+				BB53C5B729CB52C000D6EB2C /* CarteModaleView.swift in Sources */,
+				BBD49F8429CAEEA900BF840B /* HappyPawsApp.swift in Sources */,
+				BB53C59629CB065100D6EB2C /* Couleurs.swift in Sources */,
+				BB9948A229CB894700A0D1F9 /* Event.swift in Sources */,
+				BBD49F9E29CAF01400BF840B /* CarteView.swift in Sources */,
+				BB99489429CB83B200A0D1F9 /* AnimalResponse.swift in Sources */,
+				BB99489629CB83BE00A0D1F9 /* MessagesView.swift in Sources */,
+				BBA1720729CD012900317327 /* EventDetail.swift in Sources */,
+				BBD49F9B29CAEFFF00BF840B /* MessagerieView.swift in Sources */,
+				BBD49F9729CAEFD900BF840B /* RappelsView.swift in Sources */,
+				BB99489A29CB85FC00A0D1F9 /* AlimentationTable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BBD49F8C29CAEEAB00BF840B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBD49F8D29CAEEAB00BF840B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBD49F8F29CAEEAB00BF840B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyPaws/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YRXBAB7DZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'app a besoin d'acceder à ta location pour scanners lea alentours";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HappyPaws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBD49F9029CAEEAB00BF840B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyPaws/Preview Content\"";
+				DEVELOPMENT_TEAM = 4YRXBAB7DZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "L'app a besoin d'acceder à ta location pour scanners lea alentours";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HappyPaws;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBD49F7B29CAEEA900BF840B /* Build configuration list for PBXProject "HappyPaws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD49F8C29CAEEAB00BF840B /* Debug */,
+				BBD49F8D29CAEEAB00BF840B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD49F8E29CAEEAB00BF840B /* Build configuration list for PBXNativeTarget "HappyPaws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD49F8F29CAEEAB00BF840B /* Debug */,
+				BBD49F9029CAEEAB00BF840B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBD49F7829CAEEA900BF840B /* Project object */;
+}
